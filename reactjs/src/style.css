@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+.navbar{
+    height: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-item{
+    background-color:white;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #efefef;
+
+}
+input[type=checkbox]{
+    margin-right: 15px;
+}
+input{
+    padding: 7px 0px;
+    width: 100%;
+}
+select,label{
+    padding: 7px;
+    margin: 5px;
+}
+button{
+    background-color: #333;
+    color: whitesmoke;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+#form-wrappe{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0em;
+
+}
+.flex-wrapper{
+    display: flex;
+}
+#edit{
+    background-color: rgb(47, 161, 104);
+    color: whitesmoke;
+    padding: 7px 18px;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.4);
+}
+#delete{
+    background-color: rgb(219, 22, 22);
+    color: whitesmoke;
+    padding: 7px 18px;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.4);
+}
+#title{
+    cursor: pointer;
+}
